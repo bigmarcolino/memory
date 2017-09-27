@@ -1,0 +1,43 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #cccccc;
+}
+
+.clear {
+	clear: both;
+}
+
+.cell {
+	height: 80px;
+	width: 80px;
+	background-color: grey;
+	margin-right: 10px;
+	float: left;
+}
+
+.row {
+	float: left;
+}
+
+.container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #eee;
+    padding: 0;
+    margin: auto;
+    z-index: 1000;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-clip: padding-box;
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+    transform: translate(0);
+    will-change: top, opacity;
+}
